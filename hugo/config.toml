@@ -1,6 +1,9 @@
 baseURL = 'https://dora.dev/'
 languageCode = 'en-us'
 
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
 [markup.goldmark.renderer]
 unsafe= true
 
@@ -22,7 +25,7 @@ unsafe= true
 
 [languages]
   [languages.en]
-    contentDir = 'content/'
+    contentDir = 'content'
     disabled = false
     languageCode = 'en-EN'
     languageDirection = 'ltr'
@@ -34,6 +37,6 @@ unsafe= true
     disabled = false
     languageCode = 'fr-FR'
     languageDirection = 'ltr'
-    languageName = 'French'
+    languageName = 'Français'
     title = 'DevOps Research and Assessment'
     weight = 2

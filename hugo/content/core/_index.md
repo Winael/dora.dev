@@ -2,6 +2,7 @@
 title: "Core"
 date: 2023-06-26T09:36:16-04:00
 draft: false
+translationKey: core
 ---
 
 > DORA Core is a work in progress. Learn more, and provide feedback, in the [DORA Core GitHub Discussion](https://github.com/dora-team/dora.dev/discussions/265).
