@@ -1,392 +1,155 @@
 ---
-title: "How to transform"
-titleForHTMLHead: "DevOps Capabilities: Transform" # TODO: can we DRY this out?
+title: "Comment se transformer"
+titleForHTMLHead: "Capacités DevOps : Transformation" # TODO: can we DRY this out?
 date: 2023-03-22T13:43:36Z
 category: cultural
 draft: false
-headline: "Find out about the importance of ensuring your people have the tools and resources to do their job, and of making good use of their skills and abilities."
-summary: "Find out about the importance of ensuring your people have the tools and resources to do their job, and of making good use of their skills and abilities."
+headline: "Découvrez l'importance de s'assurer que vos collaborateurs disposent des outils et des ressources nécessaires pour accomplir leur travail et de faire bon usage de leurs compétences et de leurs aptitudes."
+summary: "Découvrez l'importance de s'assurer que vos collaborateurs disposent des outils et des ressources nécessaires pour accomplir leur travail et de faire bon usage de leurs compétences et de leurs aptitudes."
 ---
 
-Every organization is constantly undergoing change. Therefore, some questions to
-ask are:
+Chaque organisation est en constante évolution. Il convient donc de se poser les questions suivantes :
 
--   What is the direction of that change?
--   What are the system-level outcomes you are working towards?
--   Is the organization better able to discover and serve its customers, and
-    thus achieve its purpose?
--   Does the organization's business model and management of its people provide
-    long-term sustainability?
+- Quelle est la direction de ce changement ?
+- Quels sont les résultats que vous recherchez au niveau du système ?
+- L'organisation est-elle mieux à même de découvrir et de servir ses clients, et donc d'atteindre son objectif ?
+- Le modèle d'entreprise de l'organisation et la gestion de son personnel assurent-ils une viabilité à long terme ?
 
-When it seems as if things aren't going to plan, it's common for leaders to roll
-out a transformation program. However, these programs often fail to achieve
-their goals, using up large quantities of resources and organizational capacity.
-This document examines how to successfully execute a transformation and
-addresses some common sources of failure.
+Lorsque les choses semblent ne pas aller comme prévu, il est courant que les dirigeants lancent un programme de transformation. Cependant, ces programmes échouent souvent à atteindre leurs objectifs, consommant de grandes quantités de ressources et de capacités organisationnelles.
+Ce document examine la manière de mener à bien une transformation et aborde certaines sources d'échec courantes.
 
-## How to implement transformation
+## Comment mettre en œuvre la transformation
 
-There are two key ingredients in effective, ongoing transformation: processes
-for executing organizational change by setting goals and enabling team
-experimentation, and mechanisms to spread good practice through the
-organization.
+Il existe deux ingrédients clés pour une transformation efficace et continue : les processus de mise en œuvre du changement organisationnel en fixant des objectifs tout en permettant à l'équipe d'expérimenter, et les mécanismes de diffusion des bonnes pratiques dans l'ensemble de l'organisation.
 
-### Set goals and enable team experimentation
+### Fixer des objectifs et permettre à l'équipe d'expérimenter
 
-There are many frameworks for executing and measuring organizational change,
-such as
-[balanced scorecard](https://wikipedia.org/wiki/Balanced_scorecard),
-[objectives and key results (OKRs)](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/),
-and the
-[improvement kata](http://www-personal.umich.edu/~mrother/The_Improvement_Kata.html)
-and
-[coaching kata](http://www-personal.umich.edu/~mrother/The_Coaching_Kata.html).
-These frameworks might seem different, but they all share key features. The
-basic dynamic is shown in the following figure, which is based on the
-improvement kata framework:
+Il existe de nombreux cadres permettant d'exécuter et de mesurer les changements organisationnels, tels que le [tableau de bord prospectif](https://wikipedia.org/wiki/Balanced_scorecard), les [objectifs et résultats clés (OKR)](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/), le [kata d'amélioration](http://www-personal.umich.edu/~mrother/The_Improvement_Kata.html) et le [kata de coaching](http://www-personal.umich.edu/~mrother/The_Coaching_Kata.html).
+Ces cadres peuvent sembler différents, mais ils partagent tous des caractéristiques essentielles. La dynamique de base est illustrée dans la figure suivante, qui est basée sur le cadre du kata d'amélioration :
 
-![The 4-stage Kata model.](./devops-culture-transform-kata-model.png)
+![The 4-stage Kata model.](./devops-culture-transform-kata-model.fr.png)
 
-Source: Reproduced by permission of Mike Rother, from [*Toyota Kata Practice
-Guide: Practice Scientific Thinking Skills for Superior Results in 20 Minutes a
-Day*](https://www.mheducation.com/highered/product/toyota-kata-practice-guide-practicing-scientific-thinking-skills-superior-results-20-minutes-day-rother/9781259861024.html)
-by Mike Rother (McGraw-Hill 2018).
+Source : Reproduit avec l'autorisation de Mike Rother, à partir de [*Guide de pratique du Kata Toyota : Pratiquer les compétences de la pensée scientifique pour des résultats supérieurs en 20 minutes par jour*](https://www.mheducation.com/highered/product/toyota-kata-practice-guide-practicing-scientific-thinking-skills-superior-results-20-minutes-day-rother/9781259861024.html) par Mike Rother (McGraw-Hill 2018).
 
-All of the frameworks start with a direction (a "true north") at the
-organizational or division level. This is an aspirational, system-level business
-goal set by
-[leadership](/devops-capabilities/cultural/transformational-leadership).
-It could be an ideal that can't be achieved, such as zero injuries (the
-[goal](https://hbswk.hbs.edu/archive/paul-o-neill-values-into-action)
-chosen by Alcoa's CEO Paul O'Neill). Or it could be a tough goal that is one to
-three years out, such as a tenfold increase in productivity (the
-[goal](https://continuousdelivery.com/evidence-case-studies/#the-hp-futuresmart-case-study)
-chosen by Gary Gruver, when he was Director of Engineering of HP's LaserJet
-Firmware division).
+Tous les modèles commencent par une direction (un "vrai nord") au niveau de l'organisation ou de la division. Il s'agit d'une aspiration, d'un objectif commercial au niveau du système fixé par le [leadership](/devops-capabilities/cultural/transformational-leadership).
+Il peut s'agir d'un idéal impossible à atteindre, tel que le zéro blessure (l'[objectif](https://hbswk.hbs.edu/archive/paul-o-neill-values-into-action) choisi par le PDG d'Alcoa, Paul O'Neill). Il peut aussi s'agir d'un objectif difficile à atteindre dans un délai d'un à trois ans, comme une productivité décuplée (l'[objectif](https://continuousdelivery.com/evidence-case-studies/#the-hp-futuresmart-case-study) choisi par Gary Gruver, lorsqu'il était directeur de l'ingénierie de la division des microprogrammes LaserJet de HP).
 
-The next step is to understand the current condition. The
-[DORA quick check](/quickcheck/)
-can help you understand how you're doing in terms of your software development
-capabilities and outcomes. Another analysis approach is to perform exercises
-like
-[value stream mapping](https://www.google.com/books/edition/Value_Stream_Mapping_How_to_Visualize_Wo/MeFrAAAAQBAJ),
-or activity accounting. The point is to understand where the organization is in
-measurable terms.
+L'étape suivante consiste à comprendre la situation actuelle. Le [contrôle rapide DORA](/quickcheck/) peut vous aider à comprendre votre situation en termes de capacités de développement de logiciels et de résultats. Une autre méthode d'analyse consiste à effectuer des exercices tels que la [cartographie de la chaîne de valeur](https://www.google.com/books/edition/Value_Stream_Mapping_How_to_Visualize_Wo/MeFrAAAAQBAJ) ou la comptabilité des activités. Il s'agit de comprendre où en est l'organisation en termes mesurables.
 
-The third step is to set measurable targets for a future date. These targets
-could be described using a format like OKRs, which begin with a qualitative
-objective, and then specify measurable key results (target conditions). For
-example, HSBC's CIO for Global Banking and Markets
-[set every team the goal](https://www.linkedin.com/pulse/double-half-quarter-lesson-from-book-richard-david-knott/)
-"to double, half and quarter every year: double the frequency of releases, half
-the number of low impact incidents, and quarter the number of high impact
-incidents."
+La troisième étape consiste à fixer des objectifs mesurables pour une date ultérieure. Ces objectifs peuvent être décrits à l'aide d'un format tel que les OKR, qui commencent par un objectif qualitatif et spécifient ensuite des résultats clés mesurables (conditions cibles). Par exemple, le DSI de HSBC pour la banque et les marchés mondiaux [a fixé à chaque équipe comme objectif](https://www.linkedin.com/pulse/double-half-quarter-lesson-from-book-richard-david-knott/) de "doubler, diviser par deux et diviser par quatre chaque année : doubler la fréquence des publications, diviser par deux le nombre d'incidents à faible impact et diviser par quatre le nombre d'incidents à fort impact".
 
-Finally, teams experiment with ways to achieve these goals until the future date
-is reached, supported by management. Teams take a scientific approach to
-experimentation, using the
-[PDCA method](https://wikipedia.org/wiki/PDCA)
-(Plan-Do-Check-Act), also known as the Deming cycle. The cycle consists of the
-following steps:
+Enfin, les équipes expérimentent des moyens d'atteindre ces objectifs jusqu'à ce que la date future soit atteinte, avec le soutien de la direction. Les équipes adoptent une approche scientifique de l'expérimentation, en utilisant la [méthode PDCA](https://wikipedia.org/wiki/PDCA) (Plan-Do-Check-Act), également connue sous le nom de cycle de Deming. Le cycle se compose des étapes suivantes : 
 
--   Plan: determine the expected outcome.
--   Do: perform the experiment.
--   Check: study the results.
--   Act: decide what to do next.
+- Plan (Planifier) : déterminer le résultat attendu.
+- Do (Faire) : réaliser l'expérience.
+- Check (Vérifier) : étudier les résultats.
+- Act (Agir) : décider de ce qu'il faut faire ensuite.
 
-Teams should be running experiments on a daily basis to try to move towards the
-target conditions or key results. In the
-[improvement kata](http://www-personal.umich.edu/~mrother/The_Improvement_Kata.html),
-everybody on the team should ask themselves the following five questions every
-day:
+Les équipes doivent mener des expériences quotidiennes pour tenter de se rapprocher des conditions cibles ou des résultats clés. Dans le [kata d'amélioration](http://www-personal.umich.edu/~mrother/The_Improvement_Kata.html), chaque membre de l'équipe doit se poser les cinq questions suivantes chaque jour :
 
-1.  What is the target condition?
-2.  What is the current condition?
-3.  What obstacles do you think are preventing you from reaching the target
-    condition? Which one are you addressing now?
-4.  What is your next step? What outcome do you expect?
-5.  When can the results be evaluated to see what can be learned from taking
-    that step?
+1.  Quelle est la condition cible ?
+2.  Quelle est la situation actuelle ?
+3.  Quels sont les obstacles qui, selon vous, vous empêchent d'atteindre la condition cible ? Quel est celui auquel vous vous attaquez actuellement ?
+4.  Quelle est votre prochaine étape ? Quel résultat attendez-vous ?
+5.  Quand les résultats pourront-ils être évalués afin de déterminer les enseignements à tirer de cette étape ?
 
-When the results have been captured and new targets are set, repeat the process.
+Lorsque les résultats ont été enregistrés et que de nouveaux objectifs ont été fixés, répétez le processus.
 
-Because the process is performed under conditions of uncertainty, it's not
-always clear how the results will be achieved. Therefore, progress is often
-nonlinear, as shown in the following diagram:
+Étant donné que le processus se déroule dans des conditions d'incertitude, il n'est pas toujours évident de savoir comment les résultats seront atteints. Par conséquent, la progression est souvent non linéaire, comme le montre le diagramme suivant :
 
-![Graph showing nonlinear progress mapping performance against iterations; the
-performance line is spiky but overall goes
-up.](./devops-culture-transform-non-linear-progress.png)
+![Graphique montrant un progrès non linéaire mettant en correspondance la performance et les itérations ; la ligne de performance est irrégulière mais augmente globalement](./devops-culture-transform-non-linear-progress.fr.png)
 
-Source: CC-BY:
-[*Lean Enterprise: How High Performance Organizations Innovate at Scale*](https://www.google.com/books/edition/Lean_Enterprise/G_ixBQAAQBAJ)
-by Jez Humble, Joanne Molesky, and Barry O'Reilly (O'Reilly, 2014).
+Source : CC-BY : [*Lean Enterprise : Comment les organisations à haute performance innovent à l'échelle*](https://www.google.com/books/edition/Lean_Enterprise/G_ixBQAAQBAJ) par Jez Humble, Joanne Molesky et Barry O'Reilly (O'Reilly, 2014).
 
-In the planning meetings, participants review the target conditions or key
-results that were set in the last planning meeting. They then set new goals for
-the next iteration. In review meetings, participants look at how well the teams
-are achieving the goals for the iteration and discuss any obstacles and how they
-will be addressed.
+Lors des réunions de planification, les participants examinent les conditions cibles ou les principaux résultats qui ont été fixés lors de la dernière réunion de planification. Ils fixent ensuite de nouveaux objectifs pour la prochaine itération. Lors des séances de revue, les participants examinent dans quelle mesure les équipes atteignent les objectifs de l'itération et discutent des obstacles éventuels et de la manière dont ils seront abordés.
 
-Some important points about this pattern are the following:
+Voici quelques points importants concernant ce modèle :
 
--   A team's own target conditions or
-    [OKRs](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/)
-    must be set by the team. If they are set in a top-down way, teams won't have
-    a stake in the outcome and thus won't be as invested in achieving them.
-    Instead, the team might "game" them—that is, manipulate the outcome to meet
-    the goal artificially.
--   It's acceptable to not achieve the goals; some of the goals are *stretch
-    goals*, meaning that they're purposely designed to be challenging. Teams
-    should expect to achieve about 80% of the goals. It's common when starting
-    with cultural transformation to not achieve *any* of the specified goals. If
-    this happens, the team needs to set a single goal for the next iteration and
-    dedicate everything to achieving it.
--   Many goals and measures will change from iteration to iteration as the
-    team's goals and current conditions change, and as they learn through
-    working towards their goals. Don't spend too much time trying to set the
-    perfect objectives: focus on executing the process so you can start
-    learning.
--   It's important for teams to have the necessary autonomy, capacity,
-    resources, and management and
-    [leadership support](/devops-capabilities/cultural/transformational-leadership)
-    to do improvement work. Teams should not let the normal delivery work crowd
-    out improvement work, because the improvement work is what will help fix the
-    inefficiencies that make it so slow to deliver products and services.
+- Les conditions cibles d'une équipe ou [OKRs](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/) doivent être fixées par l'équipe elle-même. S'ils sont fixés de manière descendante, les équipes n'auront pas d'intérêt dans le résultat et ne s'investiront donc pas autant pour les atteindre.
+  Au lieu de cela, l'équipe risque de "jouer" avec ces objectifs, c'est-à-dire de manipuler le résultat pour atteindre l'objectif de manière artificielle.
+- Il est acceptable de ne pas parvenir à atteindre les objectifs ; certains d'entre eux sont des "objectifs ambitieux", c'est-à-dire qu'ils sont délibérément conçus pour être difficiles à atteindre. Les équipes doivent s'attendre à atteindre environ 80 % des objectifs. Il est courant, au début d'une transformation culturelle, de n'atteindre *aucun* des objectifs spécifiés. Dans ce cas, l'équipe doit fixer un seul objectif pour la prochaine itération et tout mettre en œuvre pour l'atteindre.
+- De nombreux objectifs et indicateurs changeront d'une itération à l'autre, en fonction de l'évolution des objectifs de l'équipe et des conditions actuelles, ainsi que de l'apprentissage qu’elle en tirera en travaillant à la réalisation de ses objectifs. Ne passez pas trop de temps à essayer de fixer des objectifs parfaits : concentrez-vous sur l'exécution du processus afin de pouvoir commencer à apprendre.
+- Il est important que les équipes disposent de l'autonomie, de la capacité, des ressources, de la gestion et du [soutien du management](/devops-capabilities/cultural/transformational-leadership) nécessaires pour mener à bien le travail d'amélioration. Les équipes ne doivent pas laisser le travail de livraison habituel supplanter le travail d'amélioration, car c'est le travail d'amélioration qui permettra de remédier aux inefficacités qui ralentissent la livraison des produits et des services.
 
-### Build community structures to spread knowledge
+### Créer des structures communautaires pour diffuser les connaissances
 
-After teams have discovered better ways of working, the next task is to spread
-lessons learned throughout the organization. There are many ways to do this. In
-the
-[2019 State of DevOps Report](https://cloud.google.com/devops/state-of-devops)
-researchers asked respondents to share how their teams and organizations spread
-DevOps and Agile methods by selecting from one or more of the following
-approaches (see Appendix B of the 2019 State of DevOps Report for detailed
-descriptions):
+Une fois que les équipes ont découvert de meilleures méthodes de travail, la tâche suivante consiste à diffuser les leçons apprises dans l'ensemble de l'organisation. Il existe de nombreuses façons d'y parvenir. Dans le [Rapport 2019 sur l'état de DevOps](https://cloud.google.com/devops/state-of-devops), les chercheurs ont demandé aux personnes interrogées de partager comment leurs équipes et organisations diffusaient les méthodes DevOps et Agile en choisissant une ou plusieurs des approches suivantes (voir l'annexe B du Rapport 2019 sur l'état de DevOps pour des descriptions détaillées) :
 
--   Training center (sometimes referred to as a *dojo*)
--   Center of excellence (CoE)
--   Proof of concept (PoC) but stall
--   Proof of concept as a template
--   Proof of concept as a seed
--   Communities of practice
--   Big bang
--   Bottom-up or grassroots
--   Mashup
+- Centre de formation (parfois appelé *dojo*).
+- Centre d'excellence (CoE)
+- Preuve de concept (PoC) mais décrochage
+- Preuve de concept sous forme de modèle
+- Preuve de concept sous forme de germe
+- Communautés de pratique
+- Big bang
+- Bottom-up ou terrain
+- Mashup
 
-Analysis shows that high performers favor strategies that create community
-structures at both low and high levels in the organization, likely making them
-more sustainable and resilient to re-organizations and product changes. The top
-two strategies employed are communities of practice and grassroots, followed by
-proof of concept as a template (a pattern where the proof of concept gets
-reproduced elsewhere in the organization), and proof of concept as a seed. For
-an example of how a
-[community of practice](https://www.youtube.com/watch?v=S4-huVFeQXg)
-works, [read about how Google's culture of comprehensive unit testing was driven
-by a group of
-volunteers](https://martinfowler.com/articles/testing-culture.html#google).
+L'analyse montre que les entreprises les plus performantes privilégient les stratégies qui créent des structures communautaires à tous les niveaux de l'organisation, ce qui les rend probablement plus durables et plus résistantes aux réorganisations et aux changements de produits. Les deux stratégies les plus utilisées sont les communautés de pratique et la communauté de terrain, suivies par la preuve de concept sous forme de modèle (un modèle dans lequel la preuve de concept est reproduite ailleurs dans l'organisation), et la preuve de concept sous forme de germe. Pour un exemple de fonctionnement d'une [communauté de pratique](https://www.youtube.com/watch?v=S4-huVFeQXg), [lisez comment la culture de Google en matière de tests unitaires complets a été impulsée par un groupe de volontaires](https://martinfowler.com/articles/testing-culture.html#google).
 
-Low performers tend to favor training centers and centers of excellence:
-strategies that create more silos and isolated expertise. They also attempt
-proofs of concept, but these generally stall and don't see success. Why might
-these strategies fail to deliver effective change?
+Les entreprises les moins performantes ont tendance à privilégier les centres de formation et les centres d'excellence : des stratégies qui créent davantage de silos et d'expertise isolée. Ils tentent également des démonstrations de concept, mais celles-ci sont généralement bloquées et n'aboutissent pas. Pourquoi ces stratégies ne parviennent-elles pas à produire des changements efficaces ?
 
-By centralizing expertise in one group, centers of excellence create several
-problems. First, the CoE is now a bottleneck for the relevant expertise for the
-organization and this cannot scale as demand for expertise in the organization
-grows. Second, it establishes an exclusive group of "experts" in the
-organization, in contrast to an inclusive group of peers who can continue to
-learn and grow together. This exclusivity can chip away at healthy
-organizational cultures. Finally, the experts are removed from doing the work.
-They are able to make recommendations or establish generic "best practices" but
-the path from the generic learning to the implementation of real work is left up
-to the learners. For example, experts will build a workshop on how to
-containerize an application, but they rarely or never actually containerize
-applications. This disconnect between theory and hands-on practice will
-eventually threaten their expertise.
+En centralisant l'expertise au sein d'un seul groupe, les centres d'excellence créent plusieurs problèmes. Tout d'abord, le centre d'excellence est désormais un goulot d'étranglement pour l'expertise pertinente de l'organisation et il ne peut pas s'adapter à l'augmentation de la demande d'expertise au sein de l'organisation. Deuxièmement, il crée un groupe exclusif d'"experts" au sein de l'organisation, contrairement à un groupe inclusif de pairs qui peuvent continuer à apprendre et à se développer ensemble. Cette exclusivité peut nuire à une culture organisationnelle saine. Enfin, les experts ne sont plus en mesure d'effectuer leur travail.
+Ils sont en mesure de formuler des recommandations ou d'établir de "meilleures pratiques" génériques, mais le passage de l'apprentissage générique à la mise en œuvre d'un travail réel est laissé à la charge des apprenants. Par exemple, les experts organiseront un atelier sur la manière de conteneuriser une application, mais ils ne conteneuriseront que rarement, voire jamais, des applications. Ce décalage entre la théorie et la pratique finira par menacer leur expertise.
 
-While some see success in training centers, they require dedicated resources and
-programs to execute both the original program and sustained learning. Many
-companies have set aside incredible resources to make their training programs
-effective: They have entire buildings dedicated to a separate, creative
-environment, and staff devoted to creating training materials and assessing
-progress. Additional resources are then needed to assure that the learning is
-sustained and propagated throughout the organization. The organization has to
-provide support for the teams that attended the training center, to help ensure
-their skills and habits are continued back in their regular work environments,
-and that old work patterns aren't resumed. If these resources aren't in place,
-organizations risk all of their investments going to waste. Instead of a center
-where teams go to learn new technologies and processes to spread to the rest of
-the organization, new habits stay in the center, creating another silo, albeit a
-temporary one. There are also similar limitations as in the CoE: If only the
-training center staff (or other, detached "experts") are creating workshops and
-training materials, what happens if they never actually do the work?
+Si certains voient le succès des centres de formation, ceux-ci nécessitent des ressources et des programmes dédiés pour mettre en œuvre à la fois le programme initial et l'apprentissage continu. De nombreuses entreprises ont mis en place des ressources considérables pour rendre leurs programmes de formation efficaces : Elles disposent de bâtiments entiers consacrés à un environnement distinct et créatif, et d'un personnel chargé de créer des supports de formation et d'évaluer les progrès réalisés. Des ressources supplémentaires sont alors nécessaires pour garantir que l'apprentissage est maintenu et propagé dans l'ensemble de l'organisation. L'organisation doit apporter son soutien aux équipes qui ont participé au centre de formation, afin de s'assurer que leurs compétences et leurs habitudes sont maintenues dans leur environnement de travail habituel et que les anciens modèles de travail ne sont pas repris. Si ces ressources ne sont pas en place, les organisations risquent de gaspiller tous leurs investissements. Au lieu d'un centre où les équipes se rendent pour apprendre de nouvelles technologies et de nouveaux processus à diffuser dans le reste de l'organisation, les nouvelles habitudes restent dans le centre, créant un autre silo, même s'il est temporaire. Il existe également des limites similaires à celles du centre d'excellence : Si seul le personnel du centre de formation (ou d'autres "experts" détachés) crée des ateliers et du matériel de formation, que se passe-t-il s'il ne fait jamais le travail ?
 
-Mashups were commonly reported (40% of the people responding to the 2019 survey
-used this strategy), but they lack sufficient funding and resources in any
-particular investment. Without a strategy to guide a technology transformation,
-organizations will often make the mistake of hedging their bets and suffer from
-*death by initiative*: identifying initiatives in too many areas, which
-ultimately leads to under-resourcing important work and dooming them all to
-failure. Instead, it is best to select a few initiatives and dedicate ongoing
-resources to ensure their success (time, money, and executive and champion
-practitioner sponsorship). In contrast to mashups, very few people report use of
-a big bang strategy, although it was most common in low performers.
+Les mashups ont été fréquemment mentionnés (40 % des répondants à l'enquête de 2019 ont utilisé cette stratégie), mais ils ne bénéficient pas de financements et de ressources suffisants dans le cadre d'un investissement particulier. Sans stratégie pour guider une transformation technologique, les organisations feront souvent l'erreur de couvrir leurs paris et souffriront de la *mort par initiative* : identifier des initiatives dans un trop grand nombre de domaines, ce qui conduit finalement à sous-financer des travaux importants et à les vouer tous à l'échec. Il est préférable de sélectionner quelques initiatives et de consacrer des ressources permanentes à leur réussite (temps, argent, parrainage par les dirigeants et les praticiens champions). Contrairement aux mashups, très peu de personnes déclarent avoir eu recours à une stratégie "big bang", bien qu'elle soit plus fréquente chez les entreprises peu performantes. 
 
-Additional analysis identified four patterns used by high performers:
+Une analyse complémentaire a permis d'identifier quatre modèles utilisés par les entreprises les plus performantes :
 
--   **Community builders:** This group focuses on communities of practice,
-    grassroots, and proofs of concept (as a template and as a seed, as described
-    earlier). This occurs 46% of the time.
--   **University:** This group focuses on education and training, with the
-    majority of their efforts going into centers of excellence, communities of
-    practice, and training centers. This pattern was only observed 9% of the
-    time, suggesting that while this strategy can be successful, it is not
-    common and requires significant investment and planning to ensure that
-    lessons learned are scaled throughout the organization.
--   **Emergent:** This group has focused on grassroots efforts and communities
-    of practice. This appears to be the most hands-off group and appears in 23%
-    of cases.
--   **Experimenters:** Experimenters appeared in 22% of cases. This group has
-    high levels of activity in all strategies except big bang and dojos—that is,
-    all activities that focus on community and creation. They also include high
-    levels in PoCs that stall. The fact they are able to leverage this activity
-    and remain high performers suggests they use this strategy to experiment and
-    test out ideas quickly.
+- **Créateurs de communautés:** Ce groupe se concentre sur les communautés de pratique, les communautés de base et les preuves de concept ( sous forme de modèle et de germe, comme décrit plus haut). Cela se produit 46% du temps.
+- **Université:** Ce groupe se concentre sur l'éducation et la formation, en consacrant la majorité de ses efforts aux centres d'excellence, aux communautés de pratique et aux centres de formation. Cette tendance n'a été observée que dans 9 % des cas, ce qui suggère que si cette stratégie peut être couronnée de succès, elle n'est pas courante et nécessite un investissement et une planification importants pour garantir que les enseignements tirés sont diffusés dans toute l'organisation.
+- **Émergent:** Ce groupe s'est concentré sur les efforts de la base et les communautés de pratique. Il s'agit du groupe le moins interventionniste, qui apparaît dans 23 % des cas.
+- **Expérimentateurs:** Les expérimentateurs apparaissent dans 22 % des cas. Ce groupe présente des niveaux d'activité élevés dans toutes les stratégies, à l'exception du big bang et des dojos, c'est-à-dire toutes les activités axées sur les communautés et la création. Ils sont également très présents dans les PoC qui décrochent. Le fait qu'ils soient capables de tirer parti de cette activité et de rester très performants suggère qu'ils utilisent cette stratégie pour expérimenter et tester rapidement des idées.
 
-## Principles of effective organizational change management
+## Principes d'une gestion efficace du changement organisationnel
 
-All organizations are complex, and every organization has different goals, a
-different starting point, and their own ways of approaching challenges.
-Prescriptions that work in one organization might not show the same results in
-another organization. However, your organization can follow some general
-principles in order to increase your chances of success.
+Toutes les organisations sont complexes, et chaque organisation a des objectifs différents, un point de départ différent et sa propre façon d'aborder les défis. Les prescriptions qui fonctionnent dans une organisation peuvent ne pas donner les mêmes résultats dans une autre. Toutefois, votre organisation peut suivre certains principes généraux afin d'augmenter ses chances de réussite.
 
-### Improvement work is never done
+### Le travail d'amélioration n'est jamais terminé
 
-High-performing organizations are never satisfied with their performance and are
-always trying to get better at what they do. Improvement work is ongoing and
-baked into the daily work of teams. People in these organizations understand
-that failing to change is as risky as change, and they don't use "that's the way
-we've always done it" as a justification for resisting change. However that
-doesn't mean taking an undisciplined approach to change. Change management
-should be performed in a scientific way in pursuit of a measurable team or
-organizational goal.
+Les organisations très performantes ne sont jamais satisfaites de leurs résultats et essaient toujours de s'améliorer. Le travail d'amélioration est permanent et fait partie du travail quotidien des équipes. Les membres de ces organisations comprennent qu'il est tout aussi risqué de ne pas changer que de changer, et ils ne justifient pas leur résistance au changement en invoquant le fait qu'ils ont toujours travaillé de la même manière. Toutefois, cela ne signifie pas qu'il faille adopter une approche indisciplinée du changement. La gestion du changement doit être effectuée de manière scientifique dans la poursuite d'un objectif mesurable pour l'équipe ou l'organisation.
 
-### Leaders and teams agree on and communicate measurable outcomes, and teams determine how to achieve them
+### Les dirigeants et les équipes se mettent d'accord sur des résultats mesurables et les communiquent, et les équipes déterminent comment les atteindre.
 
-It's essential that everybody in the organization knows the measurable business
-and organizational outcomes that they are working towards. These outcomes should
-be short (a few sentences at most) at the organizational level, and match up
-clearly to the purpose and mission of the organization. At the level of an
-individual business unit, the outcomes should fit on a single page. The
-organizational outcomes should be decided by leaders and teams working together,
-although leaders have the ultimate authority. At lower levels of the
-organization, goals are stated in more detail and with shorter horizons.
+Il est essentiel que tous les membres de l'organisation connaissent les résultats commerciaux et organisationnels mesurables qu'ils s'efforcent d'atteindre. Au niveau de l'organisation, ces résultats doivent être brefs (quelques phrases au maximum) et correspondre clairement à l'objectif et à la mission de l'organisation. Au niveau d'une unité opérationnelle, les résultats doivent tenir sur une seule page. Les résultats organisationnels doivent être décidés par les dirigeants et les équipes travaillant ensemble, même si les dirigeants ont l'autorité ultime. Aux niveaux inférieurs de l'organisation, les objectifs sont énoncés de manière plus détaillée et à plus court terme.
 
-However, it should be up to teams to decide how they go about achieving these
-outcomes, for these reasons:
+Toutefois, c'est aux équipes qu'il revient de décider de la manière d'atteindre ces résultats, et ce pour les raisons suivantes :
 
--   Under conditions of uncertainty, it's impossible to decide the best course
-    of action through planning alone. That doesn't mean some level of planning
-    isn't important. But teams should be prepared to alter or even rewrite the
-    plan based on what they discover when trying to execute it.
--   When people are told both what to do and how to do it, they lose their
-    autonomy and a chance to harness their ingenuity. Not only does this produce
-    worse outcomes, it also leads to disengaged employees.
--   Problem-solving is critical in helping employees develop new skills and
-    capabilities. Organizations should give teams problems to solve, not tasks
-    to execute.
+- Dans des conditions d'incertitude, il est impossible de décider du meilleur plan d'action par le seul biais de la planification. Cela ne signifie pas qu'un certain niveau de planification n'est pas important. Mais les équipes doivent être prêtes à modifier, voire à réécrire le plan en fonction de ce qu'elles découvrent en essayant de l'exécuter.
+- Lorsqu'on dit aux gens à la fois ce qu'ils doivent faire et comment le faire, ils perdent leur autonomie et la possibilité d'exploiter leur ingéniosité. Non seulement les résultats sont moins bons, mais les employés sont désengagés.
+- La résolution de problèmes joue un rôle essentiel pour aider les employés à développer de nouvelles compétences et capacités. Les organisations devraient donner aux équipes des problèmes à résoudre, et non des tâches à exécuter. 
 
-### Large-scale change is achieved iteratively and incrementally
+### Les changements à grande échelle sont réalisés de manière itérative et incrémentale.
 
-The annual budgeting cycle tends to drive organizations towards a project-based
-model in which work of all kinds is tied to expensive projects that take a long
-time to deliver. With few exceptions, it's better to break work down into
-smaller pieces that can be delivered incrementally.
-[Working in small batches](/devops-capabilities/process/working-in-small-batches)
-delivers a host of benefits. The most important is that it lets organizations
-correct course based on what they discover. This avoids wasting time and money
-doing work that doesn't deliver the expected benefits.
+Le cycle budgétaire annuel tend à orienter les organisations vers un modèle basé sur des projets, dans lequel tous les types de travaux sont liés à des projets coûteux dont la réalisation prend beaucoup de temps. À quelques exceptions près, il est préférable de diviser le travail en petits éléments qui peuvent être livrés progressivement. [Travailler par petits lots](/devops-capabilities/processing/working-in-small-batches) présente de nombreux avantages. Le plus important est qu'il permet aux organisations de rectifier le tir en fonction de ce qu'elles découvrent. Cela évite de perdre du temps et de l'argent à faire un travail qui ne donne pas les résultats escomptés.
 
-Moving from a
-[project paradigm to the product paradigm](https://itrevolution.com/book/project-to-product/)
-is a long-term trend that will take most industries years to execute, but it's
-clear that this is the future. Even the US federal government has successfully
-[experimented with modular contracting](https://18f.gsa.gov/2019/04/09/why-we-love-modular-contracting/)
-to pursue a more iterative, incremental approach to delivering large pieces of
-work.
+Le passage du [paradigme du projet au paradigme du produit](https://itrevolution.com/book/project-to-product/) est une tendance à long terme qui prendra des années à la plupart des industries, mais il est clair qu'il s'agit de l'avenir. Même le gouvernement fédéral américain a [expérimenté avec succès les contrats modulaires](https://18f.gsa.gov/2019/04/09/why-we-love-modular-contracting/) pour adopter une approche plus itérative et incrémentale de la fourniture de travaux de grande envergure.
 
-The issues that apply to delivering projects also apply to transformation.
-Organizations should find ways to achieve quick wins, share learning, and help
-other teams experiment with these new ideas.
+Les questions qui s'appliquent à la réalisation de projets s'appliquent également à la transformation. Les organisations doivent trouver des moyens de réaliser des gains rapides, de partager l'apprentissage et d'aider d'autres équipes à expérimenter ces nouvelles idées.
 
-## Common pitfalls in transforming culture
+## Pièges courants dans la transformation de la culture
 
-Leaders often make the following mistakes when they attempt to make large-scale
-changes to an organization.
+Les dirigeants commettent souvent les erreurs suivantes lorsqu'ils tentent d'apporter des changements à grande échelle à une organisation.
 
--   **Treating transformation as a one-time project**. in high-performing
-    organizations, getting better is an ongoing effort and part of everybody's
-    daily work. However, many transformation programs are treated as
-    large-scale, one-time events in which everyone is expected to rapidly change
-    the way they work and then continue on with business as usual. Teams are not
-    given the capacity, resources, or authority to improve the way they work,
-    and their performance gradually degrades as the team's processes, skills and
-    capabilities become an ever poorer fit for the evolving reality of the work.
-    You should think of technology transformation as an important value-delivery
-    part of the business, one that you won't stop investing in. After all, do
-    you plan to stop investing in customer acquisition or customer support?
+- **Traiter la transformation comme un projet ponctuel**. Dans les organisations performantes, l'amélioration est un effort permanent et fait partie du travail quotidien de chacun. Cependant, de nombreux programmes de transformation sont traités comme des événements ponctuels à grande échelle, dans lesquels tout le monde est censé changer rapidement sa façon de travailler, puis continuer à travailler comme si de rien n'était. Les équipes n'ont pas la capacité, les ressources ou l'autorité nécessaires pour améliorer leur façon de travailler, et leurs performances se dégradent progressivement à mesure que les processus, les compétences et les capacités de l'équipe s'adaptent de moins en moins à l'évolution de la réalité du travail.
+    Vous devriez considérer la transformation technologique comme un élément important de la valeur ajoutée de l'entreprise, dans lequel vous n'arrêterez pas d'investir. Après tout, prévoyez-vous d'arrêter d'investir dans l'acquisition de nouveaux clients ou dans l'assistance à la clientèle ?
 
--   **Treating transformation as a top-down effort**. In this model,
-    organizational reporting lines are changed, teams are moved around or
-    restructured, and new processes are implemented. Often, the people who are
-    affected are given little control of the changes and are not given
-    opportunities for input. This can cause stress and lost productivity as
-    people learn new ways of working, often while they are still delivering on
-    existing commitments. When combined with the poor communication that is
-    frequent in transformation initiatives, the top-down approach can lead to
-    employees becoming unhappy and disengaged. It's also uncommon for the team
-    that's planning and executing the top-down transformation to gather feedback
-    on the effects of their work and to make changes accordingly. Instead, the
-    plan is executed regardless of the consequences.
+- **Traiter la transformation comme un effort descendant**. Dans ce modèle, les lignes hiérarchiques de l'organisation sont modifiées, les équipes sont déplacées ou restructurées et de nouveaux processus sont mis en œuvre. Souvent, les personnes concernées n'ont que peu de contrôle sur les changements et n'ont pas la possibilité de donner leur avis. Cette situation peut être source de tensions et de perte de productivité, car les personnes doivent apprendre de nouvelles méthodes de travail, alors même qu'elles sont encore en train de respecter leurs engagements. Combinée à la mauvaise communication fréquente dans les initiatives de transformation, l'approche descendante peut entraîner le mécontentement et le désengagement des employés. Il est également rare que l'équipe qui planifie et exécute la transformation descendante recueille un retour d'information sur les conséquences de son travail et apporte des changements en conséquence. Au lieu de cela, le plan est exécuté sans en tenir compte.
 
--   **Failing to agree on and communicate the intended outcome**.
-    Transformations are sometimes executed with poorly defined goals, or with
-    qualitative (rather than quantitative) goals, such as "faster
-    time-to-market" or "lower costs." Sometimes goals are defined but are not
-    achievable, or the goals pit one part of the organization against the other.
-    In these cases, it's impossible to know whether the improvement work is
-    having the intended effect. When this failure is combined with a top-down
-    approach, it becomes hard to experiment with other approaches that might be
-    faster or cheaper. The result is typically waste when the plan is executed,
-    and an inability to determine whether the goal was achieved or the program
-    worked. In many cases, instead of the failure being critically analyzed and
-    used as a learning opportunity, the failure is ignored and new wholesale
-    change initiative is started or entire methodologies are discredited.
+- **Ne pas se mettre d'accord sur le résultat escompté et ne pas le communiquer**. Les transformations sont parfois exécutées avec des objectifs mal définis ou avec des objectifs qualitatifs (plutôt que quantitatifs), tels que "accélérer la mise sur le marché" ou "réduire les coûts". Parfois, les objectifs sont définis mais ne sont pas réalisables, ou dressent une partie de l'organisation contre l'autre.
+Dans de tels cas, il est impossible de savoir si le travail d'amélioration produit l'effet escompté. Lorsque cet échec est associé à une approche descendante, il devient difficile d'expérimenter d'autres approches qui pourraient être plus rapides ou moins coûteuses. Il en résulte généralement un gaspillage lors de l'exécution du plan et une incapacité à déterminer si l'objectif a été atteint ou si le programme a fonctionné. Dans de nombreux cas, au lieu d'analyser l'échec de manière critique et de l'utiliser comme une opportunité d'apprentissage, l'échec est ignoré et une nouvelle initiative de changement en bloc est lancée ou des méthodologies entières sont discréditées.
 
-The combination of treating transformation as a project and treating it as a
-top-down initiative tends to lead to the pattern shown in the following diagram.
-Performance gradually degrades. At the start of a transformation program, it
-initially gets worse before improving. But then this is followed by a transition
-back to business as usual. All the while, cynicism and disengagement increases
-across the organization.
+La combinaison du traitement de la transformation comme un projet et du traitement de la transformation comme une initiative descendante tend à conduire au schéma suivant.
+Les performances se dégradent progressivement. Au début d'un programme de transformation, les performances se dégradent avant de s'améliorer. Mais cette amélioration est suivie d'une transition vers un retour à la normale. Pendant ce temps, le cynisme et le désengagement augmentent dans l'ensemble de l'organisation.
 
-![Graph of performance against time, showing performance going up during each
-change program but then declining and overall staying roughly the
-same.](./devops-culture-transform-performance-against-time.png)
+![Le graphique des performances en fonction du temps montre que les performances augmentent au cours de chaque programme de changement, puis diminuent et restent globalement stables](devops-culture-transform-performance-against-time.fr.png) 
 
-Source: CC-BY:
-[*Lean Enterprise: How High Performance Organizations Innovate at Scale*](https://www.google.com/books/edition/Lean_Enterprise/G_ixBQAAQBAJ)
-by Jez Humble, Joanne Molesky, and Barry O'Reilly (O'Reilly, 2014).
+Source : CC-BY : [*Lean Enterprise : Comment les organisations à haute performance innovent à l’échelle*](https://www.google.com/books/edition/Lean_Enterprise/G_ixBQAAQBAJ) par Jez Humble, Joanne Molesky, et Barry O'Reilly (O'Reilly, 2014).
 
-## What's next
+## Prochaines étapes
 
--   For links to other articles and resources, see the
-    [DevOps page](https://cloud.google.com/devops).
--   Explore our DevOps
-    [research program](https://www.devops-research.com/research.html).
--   Take the
-    [DevOps quick check](/quickcheck/) to
-    understand where you stand in comparison with the rest of the industry.
+- Pour des liens vers d'autres articles et ressources, voir la [page DevOps](https://cloud.google.com/devops).
+- Explorez notre [programme de recherche DevOps](https://www.devops-research.com/research.html).
+- Faites le [contrôle rapide DevOps](/quickcheck/) pour comprendre où vous vous situez par rapport aux autres acteurs du secteur.
