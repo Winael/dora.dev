@@ -19,3 +19,21 @@ unsafe= true
   [cascade._build]
     render = "never"
     list = "never"
+
+[languages]
+  [languages.en]
+    contentDir = 'content/'
+    disabled = false
+    languageCode = 'en-EN'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'DevOps Research and Assessment'
+    weight = 1
+  [languages.fr]
+    contentDir = 'content/fr'
+    disabled = false
+    languageCode = 'fr-FR'
+    languageDirection = 'ltr'
+    languageName = 'French'
+    title = 'DevOps Research and Assessment'
+    weight = 2
